@@ -1,2 +1,8 @@
 theme: "PaperMod"
 title: "Yash Govilkar"
+
+
+
+services:
+  googleAnalytics:
+    ID: G-FPGVCC6LCC
