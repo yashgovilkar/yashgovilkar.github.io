@@ -1,8 +1,59 @@
-theme: "PaperMod"
-title: "Yash Govilkar"
+baseURL: "https://yashgovilkar.github.io"
+languageCode: en-us
+title: Yash Govilkar
+theme: PaperMod
 
 
 
-services:
-  googleAnalytics:
-    ID: G-FPGVCC6LCC
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Yash Govilkar"
+    subtitle: I am a software engineer focusing on building production applications with LLMs and working on the cloud infrastructure to scale it
+    imageUrl: "home/dp.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:yashgovilkarm@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/"
+    - name: "github"
+      url: "https://github.com/"
+
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
