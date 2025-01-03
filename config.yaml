@@ -40,9 +40,9 @@ params:
     - name: "email"
       url: "mailto:yashgovilkarm@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/"
+      url: "https://www.linkedin.com/in/yashgovilkar"
     - name: "github"
-      url: "https://github.com/"
+      url: "https://github.com/yashgovilkar"
 
 
 # for search using Fuse.js
